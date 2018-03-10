@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="np.com.shrestharanjit.foursemester">
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Splash_screen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Notes"
+            android:label="Notes" />
+        <activity
+            android:name=".SAD"
+            android:label="System Analysis and Design" />
+        <activity
+            android:name=".SAD1"
+            android:label="SAD unit 1" />
+        <activity
+            android:name=".SAD2"
+            android:label="SAD unit 2" />
+        <activity
+            android:name=".SAD3"
+            android:label="SAD unit 3" />
+        <activity
+            android:name=".SAD4"
+            android:label="SAD unit 4" />
+        <activity
+            android:name=".SAD5"
+            android:label="SAD unit 5" />
+        <activity
+            android:name=".SAD6"
+            android:label="SAD unit 6" />
+        <activity
+            android:name=".SAD7"
+            android:label="SAD unit 7" />
+        <activity
+            android:name=".Syllabus"
+            android:label="Syllabus" />
+        <activity
+            android:name=".TOC"
+            android:label="Theory of computation" />
+        <activity
+            android:name=".CG"
+            android:label="Computer Graphics" />
+        <activity
+            android:name=".CG1"
+            android:label="Computer Graphics Unit 1" />
+        <activity
+            android:name=".CG2"
+            android:label="Computer Graphics Unit 2" />
+        <activity
+            android:name=".CG3"
+            android:label="Computer Graphics Unit 3" />
+        <activity
+            android:name=".CG4"
+            android:label="Computer Graphics Unit 4" />
+        <activity
+            android:name=".CG5"
+            android:label="Computer Graphics Unit 5" />
+        <activity
+            android:name=".ICS"
+            android:label="Congnitive Science" />
+        <activity
+            android:name=".ICS1"
+            android:label="Cognitive Science Unit 1" />
+        <activity
+            android:name=".ICS2"
+            android:label="Cognitive Science Unit 2" />
+        <activity
+            android:name=".ICS3"
+            android:label="Cognitive Science Unit 3" />
+        <activity
+            android:name=".ICS4"
+            android:label="Cognitive Science Unit 4" />
+        <activity
+            android:name=".DBMS"
+            android:label="Databae Management System" />
+        <activity
+            android:name=".DBMS1"
+            android:label="DBMS Unit 1" />
+        <activity
+            android:name=".DBMS2"
+            android:label="DBMS Unit 2" />
+        <activity
+            android:name=".DBMS3"
+            android:label="DBMS Unit 3" />
+        <activity
+            android:name=".DBMS4"
+            android:label="DBMS Unit 4" />
+        <activity
+            android:name=".DBMS5"
+            android:label="DBMS Unit 5" />
+        <activity
+            android:name=".DBMS6"
+            android:label="DBMS Unit 6" />
+        <activity
+            android:name=".About_developer"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+    </application>
+
+</manifest>

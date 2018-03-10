@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1dbdb"
+    tools:context="np.com.shrestharanjit.foursemester.ICS">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/icsunit1"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/roundshapebtn"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            android:text="@string/_1_introduction_to_problem"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/icsunit2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundshapebtn4"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            android:text="@string/_2_introduction_to_ai"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/icsunit3"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundshapebtn2"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            android:text="@string/_3_computation"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/icsunit4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundshapebtn3"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            android:text="@string/approaches"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

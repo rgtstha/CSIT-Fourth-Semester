@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FourSemester</string>
+    <string name="_1_introduction_to_problem">1.Introduction To Problem</string>
+    <string name="_2_introduction_to_ai">2.Introduction To AI</string>
+    <string name="_3_computation">3.Computation</string>
+    <string name="approaches">Approaches</string>
+    <string name="_1_overview_of_graphics">1.Overview of Graphics</string>
+    <string name="_2_geometric_transformation">2.Geometric Transformation</string>
+    <string name="_3_3d_representaion">3. 3D Representaion</string>
+    <string name="_4_surface_detection">4.Surface Detection</string>
+    <string name="_5_computer_animation">5.Computer Animation</string>
+    <string name="_1_introduction">1.Introduction</string>
+    <string name="_2_modeling_tools">2.Modeling Tools</string>
+    <string name="_3_structured_methodologies">3.Structured Methodologies</string>
+    <string name="_4_system_analysis">4.System Analysis</string>
+    <string name="_5_system_design">5.System Design</string>
+    <string name="_6_system_implimentation">6.System Implimentation</string>
+    <string name="_7_object_oriented_analysis">7.Object Oriented Analysis</string>
+    <string name="computer_graphics">Computer Graphics</string>
+    <string name="cognitive_science">Cognitive Science</string>
+    <string name="technical_writing">Technical writing</string>
+    <string name="dbms">DBMS</string>
+    <string name="system_analysis">System Analysis</string>
+    <string name="theory_of_computation">Theory Of Computation</string>
+    <string name="_2_entity_relationship_model">2.Entity Relationship Model</string>
+    <string name="_3_relational_model">3.Relational Model</string>
+    <string name="_4_sql">4.SQL</string>
+    <string name="_5_integrity_constraints">5.Integrity Constraints</string>
+    <string name="_6_relational_database_design">6.Relational Database Design</string>
+    <string name="ranjit_shrestha">Ranjit Shrestha</string>
+    <string name="image_of_ranjit_shrestha">Image of Ranjit Shrestha</string>
+    <string name="ranjit_tech_nepal">(Ranjit Tech Nepal)</string>
+    <string name="this_is_me_ranjit_shrestha_currently_studying_bsc_csit_in_kathmandu_bernhardt_college">This is me Ranjit Shrestha. Currently Studying Bsc.CSIT in Kathmandu BernHardt COllege.</string>
+    <string name="phone_977_9843504515">Phone: +977-9843504515</string>
+    <string name="email_rangeetshrestha12_gmail_com">Email: Rangeetshrestha12@gmail.com</string>
+</resources>

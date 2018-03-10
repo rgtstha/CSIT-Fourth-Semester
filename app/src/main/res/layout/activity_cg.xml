@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#60757b"
+    tools:context="np.com.shrestharanjit.foursemester.CG">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/cgunit1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/roundshapebtn"
+            android:paddingEnd="0dp"
+            android:paddingStart="10dp"
+            android:text="@string/_1_overview_of_graphics"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/cgunit2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundshapebtn1"
+            android:paddingEnd="0dp"
+            android:paddingStart="10dp"
+            android:text="@string/_2_geometric_transformation"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/cgunit3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundshapebtn2"
+            android:paddingEnd="0dp"
+            android:paddingStart="10dp"
+            android:text="@string/_3_3d_representaion"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/cgunit4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundshapebtn4"
+            android:paddingEnd="0dp"
+            android:paddingStart="10dp"
+            android:text="@string/_4_surface_detection"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/cgunit5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundshapebtn3"
+            android:paddingEnd="0dp"
+            android:paddingStart="10dp"
+            android:text="@string/_5_computer_animation"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

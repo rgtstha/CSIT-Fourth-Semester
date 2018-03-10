@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="np.com.shrestharanjit.foursemester.About_developer">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_weight="0.5">
+        <ImageView
+            android:contentDescription="@string/image_of_ranjit_shrestha"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/ranjit"
+            android:src="@drawable/ranjitshrestha"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/ranjittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ranjit_shrestha"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/ranjit"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ranjit_tech_nepal"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/ranjittext"
+            android:textColor="#ffff"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#d1cfcf"
+            android:layout_weight="0.4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    android:textSize="20sp"
+                    android:id="@+id/intro"
+                    android:textColor="#000"
+                    android:textAlignment="center"
+                    android:text="@string/this_is_me_ranjit_shrestha_currently_studying_bsc_csit_in_kathmandu_bernhardt_college"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:background="@drawable/roundshapebtn2"
+                    android:padding="20dp"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_height="30dp"
+                        android:layout_width="match_parent"
+                        android:textColor="#fff"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:text="@string/phone_977_9843504515"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+
+                        android:text="@string/email_rangeetshrestha12_gmail_com"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

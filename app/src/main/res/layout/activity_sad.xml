@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#254d40"
+    tools:context="np.com.shrestharanjit.foursemester.SAD">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/unit1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/roundshapebtn4"
+                android:text="@string/_1_introduction"
+                android:textAllCaps="false"
+                android:textAlignment="viewStart"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"/>
+
+            <Button
+                android:id="@+id/unit2"
+                android:text="@string/_2_modeling_tools"
+                android:textAllCaps="false"
+                android:textAlignment="viewStart"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundshapebtn2"
+                />
+
+            <Button
+                android:id="@+id/unit3"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundshapebtn1"
+                android:text="@string/_3_structured_methodologies"
+                android:textAllCaps="false"
+                android:textAlignment="viewStart"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp" />
+
+            <Button
+                android:id="@+id/unit4"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundshapebtn3"
+                android:text="@string/_4_system_analysis"
+                android:textAllCaps="false"
+                android:textAlignment="viewStart"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp" />
+
+            <Button
+                android:id="@+id/unit5"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundshapebtn"
+                android:text="@string/_5_system_design"
+                android:textAllCaps="false"
+                android:textAlignment="viewStart"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp" />
+
+            <Button
+                android:id="@+id/unit6"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundshapebtn2"
+                android:text="@string/_6_system_implimentation"
+                android:textAllCaps="false"
+                android:textAlignment="viewStart"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp" />
+
+            <Button
+                android:id="@+id/unit7"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundshapebtn"
+                android:text="@string/_7_object_oriented_analysis"
+                android:textAllCaps="false"
+                android:textAlignment="viewStart"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp" />
+
+        </LinearLayout>
+
+
+
+</ScrollView>
